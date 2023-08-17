@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+
 """
 flask project
 """
+
 from flask import Flask
 
 
@@ -24,15 +26,14 @@ def cisfun(text):
 
 
 @app.route('/python', strict_slashes=False)
+@app.route('/python/<text>', strict_slashes=False)
 def pythoniscool(text='is cool'):
-    return 'Python '+ text.replace('_', ' ')
+    return 'Python ' + text.replace('_', ' ')
 
 
- @app.route('/number/<int:n>', strict_slashes=False)
- def number(n):
-     return "{:n} is a number".format(n)
+@app.route('/number/<int:n>', strict_slashes=False)
+def number(n):
+    return "{:d} is a number".format(n)
 
-
- 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000)
