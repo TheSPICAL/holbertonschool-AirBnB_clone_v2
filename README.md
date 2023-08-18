@@ -4,7 +4,7 @@ this repository is made for the Holberton AirBnB clone project, which we will le
 so let's get started :)
 
 #what we need?#
-good quistion, we need to few thing, they are split into two sections, ### back-end ### and ### front-end ###
+good quistion, we need to few thing, they are split into two sections, ### back-end ### and ### front-end 
 
 ## what does the back-end contains? ##
 1- console
@@ -24,4 +24,4 @@ good quistion, we need to few thing, they are split into two sections, ### back-
 
 ## the conseole in python ##
 source geeksforgeeks: Console (also called Shell) is basically a command line interpreter that takes input from the user, one command at a time and interprets it. If it is error free then it runs the command and gives required output otherwise shows the error message. A Python Console looks like this.
-[this](/home/omani/Desktop "python consolse")
+(https://media.geeksforgeeks.org/wp-content/uploads/Screenshot-7-7.png"python consolse")
