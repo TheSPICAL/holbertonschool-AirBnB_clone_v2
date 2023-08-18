@@ -4,24 +4,24 @@ this repository is made for the Holberton AirBnB clone project, which we will le
 so let's get started :)
 
 #what we need?#
-good quistion, we need to few thing, they are split into two sections, ###back-end### and ###front-end###
+good quistion, we need to few thing, they are split into two sections, ### back-end ### and ### front-end ###
 
-##what does the back-end contains?##
+## what does the back-end contains? ##
 1- console
 2- storge engines like MySQL
 3- Web framework like Flask
 4  messenger that delivers your request to the provider, and back to you, we call this API
 
 
-##what does the front-end contains?##
+## what does the front-end contains? ##
 1- HTML
 2- CSS
 3- JQuery
 
 
 
-##OKAY!## so now that we know what each part of this project contains, let's get into some fun details :)
+## OKAY! ## so now that we know what each part of this project contains, let's get into some fun details :)
 
 ## the conseole in python ##
 source geeksforgeeks: Console (also called Shell) is basically a command line interpreter that takes input from the user, one command at a time and interprets it. If it is error free then it runs the command and gives required output otherwise shows the error message. A Python Console looks like this.
-[](/home/omani/Desktop?raw=true "python consolse")
+[this](/home/omani/Desktop "python consolse")
