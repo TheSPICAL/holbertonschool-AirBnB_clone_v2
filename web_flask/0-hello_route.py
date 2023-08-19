@@ -1,17 +1,15 @@
 #!/usr/bin/python3
 
-"""
-Flask
-"""
-
 from flask import Flask
 
+"""
+'Hello HBNB!" message shows on the localhost, port 5000
+"""
 app = Flask(__name__)
 
-
-@app.route('/', strict_slashes=False)
-def hbnb():
-    return 'Hello HBNB!'
+@app.route('/')
+def index():
+    return "Hello HBNB!"
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=5000)
+    app.run(debug=True, port=5000)
