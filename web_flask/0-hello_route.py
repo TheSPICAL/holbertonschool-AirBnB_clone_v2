@@ -1,11 +1,10 @@
 #!/usr/bin/python3
-
-
-from flask import Flask
-
 """
 Hello HBNB! message shows on the localhost, port 5000.
 """
+
+from flask import Flask
+
 
 app = Flask(__name__)
 
