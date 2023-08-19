@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-just testing for now
+adding a /hbnb page to our site that shows the message HBNB"
 """
 
 from flask import Flask
@@ -15,7 +15,7 @@ def index():
 
 
 @app.route('/hbnb', strict_slashes=False)
-def HBNB ():
+def HBNB():
     return "HBNB"
 
 
