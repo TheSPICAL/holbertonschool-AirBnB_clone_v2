@@ -59,10 +59,10 @@ here we are putting 2 routes, the first /python/ is made so if there is
 """
 
 
-@app.route('/number/<n>', strict_slashes=False)
-def number(n):
-    return "%s is a number" % int(n)
+@app.route('/number/<int:n>', strict_slashes=False)
+def onlynum (n):
+        return ("%s is a number" % int(n))
 
-
+           
 if __name__ == "__main__":
     app.run(debug=True, port=5000, host='0.0.0.0')
