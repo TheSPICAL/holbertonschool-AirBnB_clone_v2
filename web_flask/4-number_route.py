@@ -63,6 +63,12 @@ here we are putting 2 routes, the first /python/ is made so if there is
 def onlynum (n):
         return ("%s is a number" % int(n))
 
-           
+
+"""
+<int:n> here we letting the app know that if anything but an
+    interger number gets written, the url will not work
+"""
+
+
 if __name__ == "__main__":
     app.run(debug=True, port=5000, host='0.0.0.0')
