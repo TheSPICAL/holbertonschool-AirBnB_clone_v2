@@ -60,7 +60,7 @@ here we are putting 2 routes, the first /python/ is made so if there is
 
 
 @app.route('/number/<int:n>', strict_slashes=False)
-def onlynum (n):
+def onlynum(n):
         return ("%s is a number" % int(n))
 
 
