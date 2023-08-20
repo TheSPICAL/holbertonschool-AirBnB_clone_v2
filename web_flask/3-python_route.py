@@ -45,17 +45,17 @@ def C(text):
 
 @app.route('/python/', strict_slashes=False)
 @app.route('/python/<text>', strict_slashes=False)
-def python(text= "is cool"):
+def python(text="is cool"):
     return "Python %s" % str.replace(text, '_', ' ')
 
 
 """
-here we are putting 2 routes, the first /python/ is made so if there is 
+here we are putting 2 routes, the first /python/ is made so if there is
     nothing after the / symbol it returns the message 'is cool'
     the second route /python/<text> is simmler to the route C above
          that we made, it returns whatever was written after the / symbol
             for example: /python/is_fun the message that it will show is
-            Python is fun 
+                Python is fun
 """
 
 
